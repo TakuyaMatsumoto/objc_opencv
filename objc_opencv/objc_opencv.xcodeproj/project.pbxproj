@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B93B041860223E0003F46D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B93B031860223E0003F46D /* Cocoa.framework */; };
+		53B93B0E1860223E0003F46D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B93B0C1860223E0003F46D /* InfoPlist.strings */; };
+		53B93B101860223E0003F46D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B93B0F1860223E0003F46D /* main.m */; };
+		53B93B141860223E0003F46D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 53B93B121860223E0003F46D /* Credits.rtf */; };
+		53B93B171860223E0003F46D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B93B161860223E0003F46D /* AppDelegate.m */; };
+		53B93B1A1860223F0003F46D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53B93B181860223F0003F46D /* MainMenu.xib */; };
+		53B93B1C1860223F0003F46D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B93B1B1860223F0003F46D /* Images.xcassets */; };
+		53B93B231860223F0003F46D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B93B221860223F0003F46D /* XCTest.framework */; };
+		53B93B241860223F0003F46D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B93B031860223E0003F46D /* Cocoa.framework */; };
+		53B93B2C1860223F0003F46D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53B93B2A1860223F0003F46D /* InfoPlist.strings */; };
+		53B93B2E1860223F0003F46D /* objc_opencvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B93B2D1860223F0003F46D /* objc_opencvTests.m */; };
+		53B93B3B1860235E0003F46D /* OpenCVEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53B93B3A1860235E0003F46D /* OpenCVEffect.mm */; };
+		53B93B3E186023990003F46D /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B93B3D186023990003F46D /* Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53B93B251860223F0003F46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B93AF81860223E0003F46D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B93AFF1860223E0003F46D;
+			remoteInfo = objc_opencv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53B93B001860223E0003F46D /* objc_opencv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = objc_opencv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B93B031860223E0003F46D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		53B93B061860223E0003F46D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		53B93B071860223E0003F46D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53B93B081860223E0003F46D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53B93B0B1860223E0003F46D /* objc_opencv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objc_opencv-Info.plist"; sourceTree = "<group>"; };
+		53B93B0D1860223E0003F46D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B93B0F1860223E0003F46D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53B93B111860223E0003F46D /* objc_opencv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objc_opencv-Prefix.pch"; sourceTree = "<group>"; };
+		53B93B131860223E0003F46D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		53B93B151860223E0003F46D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53B93B161860223E0003F46D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53B93B191860223F0003F46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		53B93B1B1860223F0003F46D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53B93B211860223F0003F46D /* objc_opencvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = objc_opencvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B93B221860223F0003F46D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53B93B291860223F0003F46D /* objc_opencvTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "objc_opencvTests-Info.plist"; sourceTree = "<group>"; };
+		53B93B2B1860223F0003F46D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53B93B2D1860223F0003F46D /* objc_opencvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = objc_opencvTests.m; sourceTree = "<group>"; };
+		53B93B391860235E0003F46D /* OpenCVEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenCVEffect.h; path = ../OpenCVEffect.h; sourceTree = "<group>"; };
+		53B93B3A1860235E0003F46D /* OpenCVEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVEffect.mm; path = ../OpenCVEffect.mm; sourceTree = "<group>"; };
+		53B93B3C186023990003F46D /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		53B93B3D186023990003F46D /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B93AFD1860223E0003F46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B93B041860223E0003F46D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B93B1E1860223F0003F46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B93B241860223F0003F46D /* Cocoa.framework in Frameworks */,
+				53B93B231860223F0003F46D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B93AF71860223E0003F46D = {
+			isa = PBXGroup;
+			children = (
+				53B93B091860223E0003F46D /* objc_opencv */,
+				53B93B271860223F0003F46D /* objc_opencvTests */,
+				53B93B021860223E0003F46D /* Frameworks */,
+				53B93B011860223E0003F46D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53B93B011860223E0003F46D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B93B001860223E0003F46D /* objc_opencv.app */,
+				53B93B211860223F0003F46D /* objc_opencvTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B93B021860223E0003F46D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B93B031860223E0003F46D /* Cocoa.framework */,
+				53B93B221860223F0003F46D /* XCTest.framework */,
+				53B93B051860223E0003F46D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53B93B051860223E0003F46D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53B93B061860223E0003F46D /* AppKit.framework */,
+				53B93B071860223E0003F46D /* CoreData.framework */,
+				53B93B081860223E0003F46D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		53B93B091860223E0003F46D /* objc_opencv */ = {
+			isa = PBXGroup;
+			children = (
+				53B93B151860223E0003F46D /* AppDelegate.h */,
+				53B93B161860223E0003F46D /* AppDelegate.m */,
+				53B93B391860235E0003F46D /* OpenCVEffect.h */,
+				53B93B3A1860235E0003F46D /* OpenCVEffect.mm */,
+				53B93B3C186023990003F46D /* Controller.h */,
+				53B93B3D186023990003F46D /* Controller.m */,
+				53B93B181860223F0003F46D /* MainMenu.xib */,
+				53B93B1B1860223F0003F46D /* Images.xcassets */,
+				53B93B0A1860223E0003F46D /* Supporting Files */,
+			);
+			path = objc_opencv;
+			sourceTree = "<group>";
+		};
+		53B93B0A1860223E0003F46D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B93B0B1860223E0003F46D /* objc_opencv-Info.plist */,
+				53B93B0C1860223E0003F46D /* InfoPlist.strings */,
+				53B93B0F1860223E0003F46D /* main.m */,
+				53B93B111860223E0003F46D /* objc_opencv-Prefix.pch */,
+				53B93B121860223E0003F46D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53B93B271860223F0003F46D /* objc_opencvTests */ = {
+			isa = PBXGroup;
+			children = (
+				53B93B2D1860223F0003F46D /* objc_opencvTests.m */,
+				53B93B281860223F0003F46D /* Supporting Files */,
+			);
+			path = objc_opencvTests;
+			sourceTree = "<group>";
+		};
+		53B93B281860223F0003F46D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53B93B291860223F0003F46D /* objc_opencvTests-Info.plist */,
+				53B93B2A1860223F0003F46D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B93AFF1860223E0003F46D /* objc_opencv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B93B311860223F0003F46D /* Build configuration list for PBXNativeTarget "objc_opencv" */;
+			buildPhases = (
+				53B93AFC1860223E0003F46D /* Sources */,
+				53B93AFD1860223E0003F46D /* Frameworks */,
+				53B93AFE1860223E0003F46D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objc_opencv;
+			productName = objc_opencv;
+			productReference = 53B93B001860223E0003F46D /* objc_opencv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53B93B201860223F0003F46D /* objc_opencvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B93B341860223F0003F46D /* Build configuration list for PBXNativeTarget "objc_opencvTests" */;
+			buildPhases = (
+				53B93B1D1860223F0003F46D /* Sources */,
+				53B93B1E1860223F0003F46D /* Frameworks */,
+				53B93B1F1860223F0003F46D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B93B261860223F0003F46D /* PBXTargetDependency */,
+			);
+			name = objc_opencvTests;
+			productName = objc_opencvTests;
+			productReference = 53B93B211860223F0003F46D /* objc_opencvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B93AF81860223E0003F46D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = matsumoto;
+				TargetAttributes = {
+					53B93B201860223F0003F46D = {
+						TestTargetID = 53B93AFF1860223E0003F46D;
+					};
+				};
+			};
+			buildConfigurationList = 53B93AFB1860223E0003F46D /* Build configuration list for PBXProject "objc_opencv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B93AF71860223E0003F46D;
+			productRefGroup = 53B93B011860223E0003F46D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B93AFF1860223E0003F46D /* objc_opencv */,
+				53B93B201860223F0003F46D /* objc_opencvTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B93AFE1860223E0003F46D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B93B0E1860223E0003F46D /* InfoPlist.strings in Resources */,
+				53B93B1C1860223F0003F46D /* Images.xcassets in Resources */,
+				53B93B141860223E0003F46D /* Credits.rtf in Resources */,
+				53B93B1A1860223F0003F46D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B93B1F1860223F0003F46D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B93B2C1860223F0003F46D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B93AFC1860223E0003F46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B93B171860223E0003F46D /* AppDelegate.m in Sources */,
+				53B93B3B1860235E0003F46D /* OpenCVEffect.mm in Sources */,
+				53B93B101860223E0003F46D /* main.m in Sources */,
+				53B93B3E186023990003F46D /* Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B93B1D1860223F0003F46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B93B2E1860223F0003F46D /* objc_opencvTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53B93B261860223F0003F46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B93AFF1860223E0003F46D /* objc_opencv */;
+			targetProxy = 53B93B251860223F0003F46D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53B93B0C1860223E0003F46D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B93B0D1860223E0003F46D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53B93B121860223E0003F46D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B93B131860223E0003F46D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		53B93B181860223F0003F46D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B93B191860223F0003F46D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		53B93B2A1860223F0003F46D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B93B2B1860223F0003F46D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53B93B2F1860223F0003F46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53B93B301860223F0003F46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53B93B321860223F0003F46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objc_opencv/objc_opencv-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/okajima/Documents/opencv-2.4.7/include",
+				);
+				INFOPLIST_FILE = "objc_opencv/objc_opencv-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/Users/okajima/Documents/opencv-2.4.7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53B93B331860223F0003F46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objc_opencv/objc_opencv-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/okajima/Documents/opencv-2.4.7/include",
+				);
+				INFOPLIST_FILE = "objc_opencv/objc_opencv-Info.plist";
+				LIBRARY_SEARCH_PATHS = "/Users/okajima/Documents/opencv-2.4.7";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53B93B351860223F0003F46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc_opencv.app/Contents/MacOS/objc_opencv";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objc_opencv/objc_opencv-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "objc_opencvTests/objc_opencvTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53B93B361860223F0003F46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/objc_opencv.app/Contents/MacOS/objc_opencv";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objc_opencv/objc_opencv-Prefix.pch";
+				INFOPLIST_FILE = "objc_opencvTests/objc_opencvTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B93AFB1860223E0003F46D /* Build configuration list for PBXProject "objc_opencv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B93B2F1860223F0003F46D /* Debug */,
+				53B93B301860223F0003F46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B93B311860223F0003F46D /* Build configuration list for PBXNativeTarget "objc_opencv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B93B321860223F0003F46D /* Debug */,
+				53B93B331860223F0003F46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53B93B341860223F0003F46D /* Build configuration list for PBXNativeTarget "objc_opencvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B93B351860223F0003F46D /* Debug */,
+				53B93B361860223F0003F46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B93AF81860223E0003F46D /* Project object */;
+}
